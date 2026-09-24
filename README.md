@@ -19,7 +19,7 @@ Este repositório contém um script em Python estruturado para automatizar o flu
 
    ```bash
    git clone https://github.com/laurabgularte/automacao_ETL_BI.git
-   cd seu-repositorio
+   cd automacao_ETL_BI
    ```
 
 2. Instale as dependências necessárias executando:
@@ -31,12 +31,12 @@ Este repositório contém um script em Python estruturado para automatizar o flu
 
 ## 🚀 Como Configurar e Executar
 
-1. Abra o arquivo `pipeline_etl.py`.
+1. Abra o arquivo `etl.py`.
 2. Configure as credenciais do seu banco de dados PostgreSQL nas variáveis correspondentes (`DB_USER`, `DB_PASSWORD`, `DB_HOST`, `DB_PORT`, `DB_NAME`).
 3. Atualize a URL da API e o token de acesso na função `extrair_dados_api()`.
 4. Execute o script via terminal:
    ```bash
-   python pipeline_etl.py
+   python etl.py
    ```
 
 ---
